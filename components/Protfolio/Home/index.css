@@ -1,0 +1,72 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  align-items: flex-start;
+}
+
+.bottom-Container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.container-1 {
+  width: 40%;
+  margin-left: 30px;
+}
+.container-2 {
+  width: 60%;
+}
+.image {
+  width: 100%;
+}
+.project-btn {
+  background-color: rgb(247, 165, 58);
+  color: black;
+  padding: 5px;
+  border-radius: 2px;
+  border-width: 0px;
+  margin-right: 3px;
+  margin-right: 5px;
+}
+.linkdin-btn {
+  border-radius: 2px;
+  color: black;
+  border-width: 1px;
+  padding: 5px;
+}
+.formCon {
+  width: 70%;
+  text-align: left;
+}
+.form-container {
+  display: flex;
+  border: 1px solid gray;
+  width: 100%;
+  align-self: flex-start;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.special {
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+
+input {
+  border: 1px solid gray;
+}
+textarea {
+  border: 1px solid gray;
+}
